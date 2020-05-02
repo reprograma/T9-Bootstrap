@@ -46,7 +46,7 @@
 3. Entre em `./js` copie o arquivo de nome `bootstrap.min.js` e cole dentro da pasta `./js` do projeto
 4. Vamos fazer o download do arquivo `jquery-3.4.1.min.js` no site do [jQuery](https://jquery.com/download/) na versão **"minificada"** (ou __minified__) [aqui](https://code.jquery.com/jquery-3.4.1.min.js) e salvá-lo dentro na pasta `./js` do projeto
 
-![salvar-como-jquery](/imagens/salvar-como-jquery.jpg)
+![salvar-como-jquery](/assets/salvar-como-jquery.jpg)
 
 5. Agora vamos linkar o arquivo `jquery-3.4.1.min.js` no `<html>` do projeto, perto do final da sua página, logo antes do fechamento da tag `</body>`
 6. Agora vamos linkar os arquivo do Bootstrap no `<html>` do projeto: o arquivo `bootstrap.min.css` deve ser colocado antes de qualquer outro arquivo de estilo e o `bootstrap.min.js` deve vir depois do arquivo `jquery-3.4.1.min.js`
@@ -166,4 +166,4 @@
 
 - Como ele vai ficar?
 
-![portfolio-nome](/imagens/portfolio-nome.png)
+![portfolio-nome](/assets/portfolio-nome.png)
