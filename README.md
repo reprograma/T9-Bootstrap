@@ -147,11 +147,7 @@
 ## Aula 2 - 05/05
 
 ### Começando o nosso projeto 
-1. Faça o download deste repositório [reprograma/T8-bootstrap-preprocessadores](https://github.com/reprograma/T8-bootstrap-preprocessadores)
-2. Crie um novo repositório no seu Github seguindo esse modelo de nome: **seu-nome.github.io**
-2. Copie a pasta clonada `./portfolio-nome`
-4. Renomeie com o seu nome
-5. Entre no diretório `./portfolio-nome`
+1. Faça o fork deste repositório [reprograma/T9-Bootstrap](https://github.com/reprograma/T9-Bootstrap)
 6. [Instale](#instalação) o Bootstrap no arquivo `<html>` do projeto
 7. Abra a [documentação](#documentação) do Bootstrap no seu navegador
 8. #boracomeçar!
