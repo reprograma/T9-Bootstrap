@@ -148,9 +148,9 @@
 
 ### Começando o nosso projeto 
 1. Faça o fork deste repositório [reprograma/T9-Bootstrap](https://github.com/reprograma/T9-Bootstrap)
-6. [Instale](#instalação) o Bootstrap no arquivo `<html>` do projeto
-7. Abra a [documentação](#documentação) do Bootstrap no seu navegador
-8. #boracomeçar!
+2. [Instale](#instalação) o Bootstrap no arquivo `<html>` do projeto
+3. Abra a [documentação](#documentação) do Bootstrap no seu navegador
+4. #boracomeçar!
 
 ### Portfólio ♡  
 - Quais componentes vamos construir?
