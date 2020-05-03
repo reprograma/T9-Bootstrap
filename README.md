@@ -49,7 +49,10 @@
 ![salvar-como-jquery](/assets/salvar-como-jquery.jpg)
 
 5. Agora vamos linkar o arquivo `jquery-3.4.1.min.js` no `<html>` do projeto, perto do final da sua página, logo antes do fechamento da tag `</body>`
-6. Agora vamos linkar os arquivo do Bootstrap no `<html>` do projeto: o arquivo `bootstrap.min.css` deve ser colocado antes de qualquer outro arquivo de estilo e o `bootstrap.min.js` deve vir depois do arquivo `jquery-3.4.1.min.js`
+6. Agora vamos linkar os arquivo do Bootstrap no `<html>` do projeto:
+
+- O arquivo `bootstrap.min.css` deve ser colocado antes de qualquer outro arquivo de estilo e o `bootstrap.min.js` deve vir depois do arquivo `jquery-3.4.1.min.js`
+- Lembrar de linkar na head do `<html>`
 
 ### Instalação via npm (extra!)
 
