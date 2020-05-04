@@ -1,4 +1,4 @@
-# T8-bootstrap-sass
+# T9-Bootstrap
 
 [AULA 01 - 04/05](#aula-1---0405) | 
 [AULA 02 - 05/05](#aula-2---0505) |
@@ -49,7 +49,10 @@
 ![salvar-como-jquery](/assets/salvar-como-jquery.jpg)
 
 5. Agora vamos linkar o arquivo `jquery-3.4.1.min.js` no `<html>` do projeto, perto do final da sua página, logo antes do fechamento da tag `</body>`
-6. Agora vamos linkar os arquivo do Bootstrap no `<html>` do projeto: o arquivo `bootstrap.min.css` deve ser colocado antes de qualquer outro arquivo de estilo e o `bootstrap.min.js` deve vir depois do arquivo `jquery-3.4.1.min.js`
+6. Agora vamos linkar os arquivo do Bootstrap no `<html>` do projeto:
+
+- O arquivo `bootstrap.min.css` deve ser colocado antes de qualquer outro arquivo de estilo e o `bootstrap.min.js` deve vir depois do arquivo `jquery-3.4.1.min.js`
+- Lembrar de linkar na head do `<html>`
 
 ### Instalação via npm (extra!)
 
@@ -147,14 +150,10 @@
 ## Aula 2 - 05/05
 
 ### Começando o nosso projeto 
-1. Faça o download deste repositório [reprograma/T8-bootstrap-preprocessadores](https://github.com/reprograma/T8-bootstrap-preprocessadores)
-2. Crie um novo repositório no seu Github seguindo esse modelo de nome: **seu-nome.github.io**
-2. Copie a pasta clonada `./portfolio-nome`
-4. Renomeie com o seu nome
-5. Entre no diretório `./portfolio-nome`
-6. [Instale](#instalação) o Bootstrap no arquivo `<html>` do projeto
-7. Abra a [documentação](#documentação) do Bootstrap no seu navegador
-8. #boracomeçar!
+1. Faça o fork deste repositório [reprograma/T9-Bootstrap](https://github.com/reprograma/T9-Bootstrap)
+2. [Instale](#instalação) o Bootstrap no arquivo `<html>` do projeto
+3. Abra a [documentação](#documentação) do Bootstrap no seu navegador
+4. #boracomeçar!
 
 ### Portfólio ♡  
 - Quais componentes vamos construir?
