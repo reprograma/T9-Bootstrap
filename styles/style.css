@@ -5,3 +5,14 @@
 a:hover{
   font-weight: bold;
 }
+
+.imagem-carousel {
+  object-fit: cover;
+  object-position: 0 40%;
+  height: 65vh;
+}
+
+.destaque {
+  text-shadow:1px 2px 1px rgb(231, 231, 167);
+
+}
