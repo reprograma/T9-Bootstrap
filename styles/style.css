@@ -6,10 +6,18 @@ a:hover{
   font-weight: bold;
 }
 
-.img-carrossel{
-object-fit: fill;
-object-position:0 20% ;
-max-width: 100px;
-height:100;
+.img_carousel{
+  object-fit: cover;
+  object-position: 0 20%;
+  width: 100%;
+  height: 65vh;
+  text-decoration-color: dimgray;
 
+
+}
+
+.color{
+  color:rgb(230, 172, 48);
+  text-decoration-style: double;
+  
 }
