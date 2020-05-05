@@ -21,3 +21,24 @@ a:hover{
   text-decoration-style: double;
   
 }
+.nome{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+ 
+}
+p{
+  display: flex;
+  justify-content: center;
+  padding-top: -40px;
+  font-style: oblique;
+
+}
+.link-sobre{
+  color: rgb(2, 58, 5);
+}
+
+.link-sobre:hover{
+  rgb(2, 58, 5);
+  color: rgb(2, 58, 5);
+}
