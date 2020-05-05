@@ -5,3 +5,10 @@
 a:hover{
   font-weight: bold;
 }
+
+.imagem-carousel{
+  object-fit: cover;
+  object-position: 0 60%;
+  height: 210vh;
+ 
+}
