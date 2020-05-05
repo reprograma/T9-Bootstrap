@@ -5,3 +5,30 @@
 a:hover{
   font-weight: bold;
 }
+
+.img1-position{
+  height: 65vh;
+  object-position: 0 35% ;
+  object-fit: cover;
+}
+
+.img2-position{
+  height: 65vh;
+  object-position: 10% 85%;
+  object-fit: cover;
+}
+
+
+.img3-position{
+  height: 65vh;
+  object-position: 25% 25%;
+  object-fit: cover;
+}
+
+
+.img4-position{
+  height: 65vh;
+  object-position: center;
+  object-fit: contain;
+  background-image: linear-gradient( slategrey, #7E459B);
+}
