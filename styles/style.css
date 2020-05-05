@@ -1,18 +1,35 @@
-.bg-roxo{
-    background-color: #7E459B;
+.bg-roxo {
+  background-color: #7E459B;
 }
 
-a:hover{
+a:hover {
   font-weight: bold;
 }
 
-.carrossel {
+.img-carrossel {
   object-fit: cover;
- 
+  object-position: 20% 30%;
+  width: 100%;
+  height: 60vh;
+
 }
 
-.img-carrossel {
+.img-carrossel-diretora {
+  object-fit: cover;
+  object-position: 40% 60%;
   width: 100%;
-  object-fit: fill;
-  
+  height: 60vh;
+
+}
+
+.img-carrossel-atriz {
+  object-fit: cover;
+  object-position: 40% 80%;
+  width: 100%;
+  height: 60vh;
+
+}
+
+.destaque-legenda {
+  text-shadow: gray 1px 1px;
 }
