@@ -13,6 +13,49 @@ a:hover{
 }
 
 .destaque {
-  text-shadow:1px 2px 1px rgb(231, 231, 167);
+  text-shadow:1px 1px 2px whitesmoke;
 
+}
+
+.icons_socialmedia {
+  color: #7E459B;
+}
+span{
+  color: #7E459B;
+}
+.about {
+   
+  padding: 40px;
+}
+
+.icons_socialmedia {
+  color: #7E459B;
+}
+
+.habilities {
+  background-color:#7E459B;
+}
+
+/* .card {
+margin: 90px;
+} */
+.card-img-top {
+  object-fit: fill;
+ height: 300px;
+ border-bottom: 1px solid rgb(216, 209, 209);
+
+}
+
+.btn-roxo {
+  color: #fff;
+  background-color: #7E459B;
+}
+
+.btn-roxo:hover {
+  color: beige;
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 10px;
 }
