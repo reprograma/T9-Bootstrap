@@ -5,3 +5,14 @@
 a:hover{
   font-weight: bold;
 }
+
+.carrossel {
+  object-fit: cover;
+ 
+}
+
+.img-carrossel {
+  width: 100%;
+  object-fit: fill;
+  
+}
