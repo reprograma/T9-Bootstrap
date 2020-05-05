@@ -5,3 +5,10 @@
 a:hover{
   font-weight: bold;
 }
+
+.carousel-img {
+  object-fit: cover;
+  object-position: 0 60%;
+  width: 100%;
+  height: 65vh;
+}
