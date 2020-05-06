@@ -28,3 +28,11 @@ a:hover{
 .font-roxo{
   color: rgb(75, 38, 94);
 }
+
+button{
+  width: 100px;
+}
+
+button:hover{
+ opacity: .9;
+}
