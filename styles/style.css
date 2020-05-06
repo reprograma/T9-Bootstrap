@@ -24,21 +24,18 @@ span{
   color: #7E459B;
 }
 .about {
-   
   padding: 40px;
 }
 
-.icons_socialmedia {
-  color: #7E459B;
+.icons {
+  color: white;
+
 }
 
 .habilities {
   background-color:#7E459B;
 }
 
-/* .card {
-margin: 90px;
-} */
 .card-img-top {
   object-fit: fill;
  height: 300px;
