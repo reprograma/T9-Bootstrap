@@ -1,98 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <title>Document</title>
 </head>
+
 <body>
+
   <!-- NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-roxo">
-      <div class="container">
-        <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Reprograma}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesktop" aria-controls="menudesktop" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse  justify-content-end" id="menudesktop">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Habilidades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Sobre</a>
-            </li>         
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Portifólios</a>
-            </li>
-          </ul>         
+  <nav class="navbar navbar-expand-lg navbar-light bg-roxo">
+    <div class="container">
+      <a class="navbar-brand text-white" href="https://reprograma.com.br/" target="_blank">{Reprograma}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menudesktop"
+        aria-controls="menudesktop" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  justify-content-end" id="menudesktop">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Portifólios</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 imagem-carousel" src="./assets/google-manu.jpg" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 imagem-carousel" src="./assets/IMG-20191202-WA0027.jpg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 imagem-carousel" src="./assets/aWkMkY4A.jpeg" alt="Terceiro Slide">
         </div>
       </div>
-      </nav>
-    <!-- HEADER -->
-      <header>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100 imagem-carousel" src="./assets/google-manu.jpg" alt="Primeiro Slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100 imagem-carousel" src="./assets/IMG-20191202-WA0027.jpg" alt="Segundo Slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100 imagem-carousel" src="./assets/aWkMkY4A.jpeg" alt="Terceiro Slide">
-            </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- SOBRE -->
+  <section class="text-center my-4">
+    <h3 class="font-roxo font-weight-bold">Emanuelle</h3>
+    <h5 class="font-italic font-weight-light m-2 font-roxo">Desenvolvedora front-end</h5>
+
+    <div class="pt-4 d-flex flex-column flex-md-row justify-content-md-around redes-sociais">
+      <a href="#" class="link-sobre">
+        <i class="fab fa-github mb-3"></i>
+        <span>endereço de github</span>
+      </a>
+
+      <a href="#" class="link-sobre">
+        <i class="fab fa-linkedin icon mb-3"></i>
+        <span>endereço de linkedin</span>
+      </a>
+      <a href="#" class="link-sobre">
+        <i class="fas fa-envelope-square mb-3"></i>
+        <span>endereço de email</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE / HABILIDADES-->
+  <section class="bg-roxo text-white d-flex flex-column flex-lg-row justify-content-lg-around p-4">
+
+    <div class="habilidades  w-100">
+      
+      <h2 class="text-center">Habilidades</h2>
+
+      <div class="icones pt-3 row justify-content-center">
+
+        <div>
+          <div class="text-center redes-sociais col">
+            <i class="fab fa-sass"></i>
+            <p>Sass</p>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-          </a>
+          <div class="text-center redes-sociais col">
+            <i class="fab fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </div>
+          <div class="text-center redes-sociais col">
+            <i class="fab fa-html5"></i>
+            <p>HTML</p>
+          </div>
         </div>
-      </header>
-    <!-- SOBRE -->
-      <section class="text-center my-4">
-        <h3>Emanuelle</h3>
-        <h5 class="font-italic font-weight-light m-2">Desenvolvedora front-end</h5>
-
-        <div class="d-flex flex-column flex-md-row justify-content-md-around">
-          <a href="#" class="p-2 link-sobre">
-            <i class="fa-2x fab fa-github"></i>
-            <span>endereço de github</span>
-          </a>
-
-          <a href="#" class="link-sobre">
-            <i class="fa-2x fab fa-linkedin icon"></i>
-            <span>endereço de linkedin</span>
-          </a>
-          <a href="#" class="link-sobre">
-            <i class="fa-2x fas fa-envelope-square"></i>
-            <span>endereço de email</span>
-          </a>
+        <div>
+          <div class="text-center redes-sociais col">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS</p>
+          </div>
+          <div class="text-center redes-sociais col">
+            <i class="fab fab fa-react"></i>
+            <p>React</p>
+          </div>
+          <div class="text-center redes-sociais col">
+            <i class="fab fa-git-alt"></i>
+            <p>Git</p>
+          </div>
+        </div>
+        <div>
+          <div class="text-center redes-sociais col">
+            <i class="fab fa-js"></i>
+            <p>Javascript</p>
+          </div>
+          <div class="text-center redes-sociais col">
+            <i class="fas fa-book"></i>
+            <p>JQuery</p>
+          </div>
+          <div class="text-center redes-sociais col">
+            <i class="fas fa-tasks"></i>
+            <p>Scrum</p>
+          </div>
         </div>
 
-      </section>
-   
-     
-       
-  
+      </div>
+    </div>
 
-  
+    <div class="sobre text-center w-100">
+      <h2>Sobre</h2>
+      <p class="pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempore laborum repellat saepe, voluptas
+        ipsum porro voluptate quibusdam aliquid aliquam error laboriosam exercitationem ullam eaque totam vitae cumque
+        similique eum.</p>
+
+    </div>
 
 
 
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
+
+  </section>
+
+
+
+
+
+
+
+
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

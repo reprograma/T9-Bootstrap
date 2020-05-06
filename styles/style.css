@@ -14,14 +14,17 @@ a:hover{
 }
 
 .link-sobre{
-  color:  #7E459B;
+  color:  #7E459B;  
 }
 
 .link-sobre:hover{
   color:  #7E459B;
 }
 
-.tamnho{
-  width: 40px;
-  height: 40px;
+.redes-sociais i{
+  font-size: 1.6rem;
+}
+
+.font-roxo{
+  color: rgb(75, 38, 94);
 }
