@@ -16,7 +16,9 @@ a:hover{
 
 
 }
-
+.color_geral{
+  color: rgb(2, 58, 5);
+}
 
 .nome{
   display: flex;
@@ -51,3 +53,9 @@ p{
   font-size: 30px;
 }
 
+button{
+  width: 100px ;
+}
+button:hover{
+  opacity: 0.8;
+}
