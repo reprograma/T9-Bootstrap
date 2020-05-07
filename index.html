@@ -21,7 +21,7 @@
       <div class="collapse navbar-collapse  justify-content-end" id="menudesktop">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Habilidades</a>
+            <a class="nav-link text-white" href="#habilidades">Habilidades</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#">Sobre</a>
@@ -80,10 +80,10 @@
       </a>
     </div>
   </section>
-  <section class=" bg-roxo text-white d-flex flex-column flex-lg-row justify-content-lg-around text-center p-3 ">
+  <section class=" container bg-roxo text-white d-flex flex-column flex-lg-row justify-content-lg-around text-center p-3 ">
 
     <div class="habilidades pt-3 w-100">
-      <h2 class="text-center">Habilidades</h2>
+      <h2 id="habilidades" class="text-center">Habilidades</h2>
 
       <div class="icones row justify-content-center">
 
@@ -135,7 +135,8 @@
 
     <div class="sobre w-100">
       <h2>Sobre</h2>
-      <p class="pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempore laborum repellat saepe, voluptas
+      <p class="pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempore laborum repellat
+        saepe, voluptas
         ipsum porro voluptate quibusdam aliquid aliquam error laboriosam exercitationem ullam eaque totam vitae cumque
         similique eum.</p>
 
@@ -145,6 +146,97 @@
 
 
   </section>
+
+  <section class=" row justify-content-around mt-5 mb-5 modal-cards "> 
+    <!----------card1-------->
+
+    <div class="card text-center " style=" width: 18rem;">
+      <img src="assets/M-de-Maravilhosa.jpg" class="card-img-top imagem-card" alt="capa do card">
+      <div class="card-body">
+        <h5 class="card-title">M de Maravilhosa</h5>
+        <p class="card-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. At corporis sed quisquam, vel ipsum aperiam ex quam ipsa numquam non commodi reiciendis! Hic tenetur suscipit sint qui eos ullam quas. </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="text-white btn bg-roxo" data-toggle="modal" data-target="#modal1">
+          Veja mais!
+        </button>
+      </div>
+      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">M de Maravilhosa</h5> <button type="button" class="close"
+              data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+          </div>
+          <div class="modal-body"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus culpa quae harum ducimus autem accusamus delectus est mollitia repudiandae non quaerat similique inventore debitis placeat voluptatem iusto, excepturi possimus illo? </div>
+          <div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button> </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------card2-------->
+
+    <div class="card text-center" style="width: 18rem;">
+      <img src="assets/gato-1.jpg" class="card-img-top imagem-card" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Projeto</h5>
+        <p class="card-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus aliquid explicabo vel atque dicta quae dolores consequuntur sequi labore placeat quibusdam, unde eos, laboriosam asperiores voluptatum nisi tenetur! Debitis? </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="text-white btn bg-roxo" data-toggle="modal" data-target="#modal2">
+          Veja mais!
+        </button>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5> <button type="button" class="close"
+              data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+          </div>
+          <div class="modal-body"> ... </div>
+          <div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button> </div>
+        </div>
+      </div>
+    </div>
+
+     <!----------card3-------->
+
+     <div class="card text-center" style="width: 18rem;">
+      <img src="assets/cao-1.jpg" class="card-img-top imagem-card" alt="capa do card">
+      <div class="card-body">
+        <h5 class="card-title">projeto</h5>
+        <p class="card-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, rerum blanditiis? Nostrum voluptas aut eos odio. Necessitatibus sequi quas labore distinctio sapiente ab ullam magnam molestiae, pariatur impedit consequatur quam? </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="text-white btn bg-roxo" data-toggle="modal" data-target="#modal3">
+          Veja mais!
+        </button>
+      </div>
+      </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5> <button type="button" class="close"
+              data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span> </button>
+          </div>
+          <div class="modal-body"> ... </div>
+          <div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button> </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
 
 
 
@@ -157,5 +249,6 @@
   <script src="./js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
 </body>
+<footer class="bg-roxo text-white text-center font-weight-bold">Desenvolvido com Bootstrap por Raquel Magnani, enquanto aluna da {reprograma}2020</footer>
 
 </html>

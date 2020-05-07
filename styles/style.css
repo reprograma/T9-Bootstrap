@@ -26,3 +26,11 @@ a:hover{
 .link:hover{
   color: #7E459B;
   }
+
+  button:hover{
+    opacity: .9;
+  }
+
+  .imagem-card{
+    height: 200px;
+  }
