@@ -1,5 +1,5 @@
 .bg-roxo{
-    background-color: #7E459B;
+    background-color: #dc8bb0;
 }
 
 a:hover{
@@ -9,7 +9,8 @@ a:hover{
 
 .carousel-img {
   object-fit: cover;
-  object-position: 0 60%;
+  background-position: bottom;
+  object-position: 0 12%;
   width: 100%;
   height: 65vh;
 }
